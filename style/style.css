@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top,rgb(92, 21, 173),rgb(192, 118, 229));
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.form{
+    background: linear-gradient(to top,#74a2fe,rgb(192, 118, 229));
+    box-shadow:35px 50px 40px rgba(6, 6, 6, 0.4);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    padding: 60px 50px 60px 50px;
+    height: 300px;
+    width: 500px;
+    left: 400px;
+    top:100px;
+  
+
+}
+
+.icon{
+    height: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    box-sizing: 3px;
+    padding: 2px 4px 2px 4px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: right;
+
+}
+.time-icon{
+    height: 20px;
+    margin-right: 5px;
+}
+
+.user-name,.user-password{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 25px;
+}
+.name{
+    border: none;
+    box-shadow:5px 5px 4px rgba(6, 6, 6, 0.4);
+    margin-left: 3px;
+    height: 30px;
+    background:transparent;
+    color: white;
+    font-size: 1em;
+}
+.password{
+    border: none;
+    box-shadow:5px 5px 4px rgba(6, 6, 6, 0.4);
+    margin-left: 8px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    font-size: 1em;
+    position: relative;
+
+}
+
+.user-password span,.user-name span{
+    position: absolute;
+    pointer-events: none;
+    font-size:16px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 106, 106);
+    padding: 15px 10px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+}
+
+.password:focus +span,.password:valid +span,.name:focus +span,.name:valid +span {
+  color: rgba(223, 223, 223, 0.873);
+  font-size: 7px;
+  height: 1px;
+  width: 100px;
+  transform: translateX(10px) translateY(-14px);
+  
+}
+.sign-up-button{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(138, 112, 216);
+    border-color: rgb(251, 208, 208);
+    border-style: dotted;
+    margin: 18px 0 0 45px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    
+}
+.sign-up-button:hover{
+    background-color: rgb(211, 143, 153);
+}
+
+.user-name,.user-password{
+    font-size: 18px;
+
+
+}
+

@@ -1,0 +1,9 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top,rgb(92, 21, 173),rgb(192, 118, 229));
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
